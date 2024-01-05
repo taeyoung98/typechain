@@ -6,6 +6,7 @@
   "compilerOptions": {
     "outDir": "build", // JS 파일이 생성될 디렉터리
     "target": "ES6", // TS가 컴파일할 JS 버전 (ES6 권장-안정적)
-    "lib": ["ES6", "DOM"] // 타겟 런타임 환경 -> 자동완성
+    "lib": ["ES6", "DOM"], // 타겟 런타임 환경 -> 자동완성
+    "strict": true // 정의 파일 없는 경우 에러
   }
 }
