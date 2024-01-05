@@ -1,0 +1,11 @@
+{
+  // VSC가 우리가 TS를 사용한다고 추측
+  "include": [ // 우리가 JS로 컴파일하고 싶은 모든 디렉터리
+    "src" // TS가 src의 모든 파일을 확인한다
+  ],
+  "compilerOptions": {
+    "outDir": "build", // JS 파일이 생성될 디렉터리
+    "target": "ES6", // TS가 컴파일할 JS 버전 (ES6 권장-안정적)
+    "lib": ["ES6", "DOM"] // 타겟 런타임 환경 -> 자동완성
+  }
+}
